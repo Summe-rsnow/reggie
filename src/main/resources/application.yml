@@ -1,6 +1,10 @@
 server:
   port: 80
 spring:
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
   application:
     name: reggie
   datasource:
